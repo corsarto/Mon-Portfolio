@@ -1,0 +1,10 @@
+* {
+  font-family: 'Libertinus sans';
+  box-sizing: border-box; 
+  margin: auto;
+  padding: 0;
+  }
+#root {
+    max-width: 1440px;
+    margin: 0 auto;
+}

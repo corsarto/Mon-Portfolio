@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Kasa",
+    "description": "Refonte d'un site de location d'appartements",
+    "image": "src/assets/images/Kasa-logo.png",
+    "project_id": "projet-1"
+  },
+  {
+    "id": 2,
+    "title": "Portfolio de Sophie Bluel",
+    "description": "Création d'un portfolio pour une architecte d'intérieur",
+    "image": "src/assets/images/Sophie-bluel-logo.png",
+    "project_id": "projet-2"
+  },
+  {
+    "id": 3,
+    "title": "Booki",
+    "description": "Création d'une interface pour un site de réservation d'hébergements et d'activité dans une ville ",
+    "image": "src/assets/images/Booki-logo.png",
+    "project_id": "projet-3"
+  }
+]
