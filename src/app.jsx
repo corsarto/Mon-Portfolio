@@ -17,7 +17,6 @@ ReactDOM.createRoot(document.getElementById("app")).render(
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projets/:project_id" element={<ProjectPage />} />
-        <Route path="/contact" element={<div>Contact Page</div>} />
       </Routes>
       </Suspense>
       <Footer />

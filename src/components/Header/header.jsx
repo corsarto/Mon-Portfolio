@@ -17,9 +17,9 @@ function Header() {
         <a href="#projects" className="nav-link">
           Projets
         </a>
-        <Link to="/contact" className="nav-link">
+        <a href="mailto:clerc.loic@gmail.com" className="nav-link">
           Contact
-        </Link>
+        </a>
       </nav>
     </div>
   );
