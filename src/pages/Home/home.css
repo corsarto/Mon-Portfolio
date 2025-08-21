@@ -1,4 +1,32 @@
-.home-container {
-    max-width: 1440px;
-    margin: 0 auto;
+.home-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
+  width: 100%;
+  object-fit: cover;
+  height:600px;
+}
+
+.home-wrapper::after {
+  content: "";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.3); 
+  z-index: 0;
+}
+
+.home-wrapper h1 {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  z-index: 1;
 }

@@ -1,5 +1,52 @@
 .skills-logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
+  width: 80px;
+  height: 80px;
+  margin:0;
+  margin-bottom: 60px;
+}
+.skills h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.skills {
+  display:flex;
+  flex-direction: column;
+}
+.skills p {
+  font-size:20px;
+  margin-bottom: 20px;
+}
+.skills-container {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.skills-card {
+  background-color: rgb(255, 250, 238);
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+  width:400px;
+  height:400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.skills h3 {
+  margin:0;
+  font-size: 22px;
+  margin-bottom:15px;
+}
+.skills ul {
+  list-style-type: none;
+  margin: 0;
+  font-size: 18px;
+  line-height: 40px;;
+}
+.skills-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }

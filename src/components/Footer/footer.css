@@ -1,17 +1,18 @@
 .footer {
-    padding: 20px;
-    text-align: center;
-    background-color: #282c34;
-    color: white;
-    max-width: 1440px;
+  padding: 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+.footer p {
+  color: white;
 }
 
-.footer-linkedin{
-    width: 30px;
-    height: 30px;
+.footer-linkedin {
+  width: 30px;
+  height: 30px;
 }
 
-.footer-github{
-    width: 30px;
-    height: 30px;
+.footer-github {
+  width: 30px;
+  height: 30px;
 }

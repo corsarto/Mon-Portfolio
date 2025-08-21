@@ -1,9 +1,9 @@
 import { useParams } from "react-router-dom";
-import projects from "./projects.json";
+import projects from "../../projects.json";
 
 function ProjectPage() {
   const { project_id } = useParams();
-  const project = projects.find(p => p.project_id === project_id);
+  const project = projects.find((p) => p.project_id === project_id);
 
   if (!project) return <p>Projet introuvable</p>;
 
