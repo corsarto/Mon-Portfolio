@@ -8,7 +8,7 @@ function ProjectsCard() {
       {projects.map((project) => (
         <Link key={project.id} to={`/projets/${project.project_id}`}>
           <div className="card">
-            <img src={project.image} alt={project.title} />
+            <img src={project.image.src} alt={project.image.alt} />
             <h3>{project.title}</h3>
             <p>{project.description}</p>
           </div>

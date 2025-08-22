@@ -1,0 +1,1 @@
+import{u as s,j as t}from"./index-C3VtiHan.js";import{p as o}from"./projects-DXGpJU5N.js";function j(){const{project_id:e}=s(),r=o.find(i=>i.project_id===e);return r?t.jsxs("div",{children:[t.jsx("h1",{children:r.title}),t.jsx("img",{src:r.image,alt:r.title}),t.jsx("p",{children:r.description})]}):t.jsx("p",{children:"Projet introuvable"})}export{j as default};

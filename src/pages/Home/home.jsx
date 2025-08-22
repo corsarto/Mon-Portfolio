@@ -9,13 +9,13 @@ function Home() {
       <div className="home-wrapper">
         <h1>Bienvenue sur mon portfolio</h1>
         <img
-        src="src/assets/images/banner_1_.webp"
-        alt="Banniere"
-        className="banner"
-        width="1100"
-        height="418"
-        loading="eager"
-      />
+          src="src/assets/images/banner_1_.webp"
+          alt="Banniere"
+          className="banner"
+          width="1100"
+          height="418"
+          loading="eager"
+        />
       </div>
       <About />
       <Skills />

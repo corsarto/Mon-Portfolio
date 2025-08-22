@@ -3,8 +3,36 @@
     "id": 1,
     "title": "Kasa",
     "description": "Refonte d'un site de location d'appartements",
-    "image": "/images/Kasa-logo.webp",
-    "project_id": "projet-1"
+    "image": { "src": "/images/Kasa-logo.webp", "alt": "Logo de kasa" },
+    "project_id": "projet-1",
+    "details": {
+      "pictures": [
+        { "src": "/images/Kasa-home.webp", "alt": "Page d'accueil de kasa" },
+        { "src": "/images/Kasa-about.webp", "alt": "Page à propos de kasa" },
+        { "src": "/images/Kasa-location.webp", "alt": "Page de location d'un apparetement de kasa" }
+      ],
+      "scenario": "Kasa est une plateforme de location d’appartements entre particuliers. Le site, développé il y a plus de 10 ans en ASP.NET, devait être modernisé avec une stack JavaScript complète. En tant que développeur front-end freelance, j’ai été chargé de créer la nouvelle interface en React, en suivant des maquettes Figma responsives, et en utilisant un fichier JSON mocké en attendant le back-end.",
+      "roles": [
+        "Initialiser le projet avec Vite + React.",
+        "Mettre en place les routes avec React Router.",
+        "Créer les composants principaux : Header, Footer, Gallery, Collapse, pages d’erreur, etc.",
+        "Intégrer les maquettes Figma en responsive design (mobile et desktop).",
+        "Respecter les contraintes fonctionnelles fournies par le designer."
+      ],
+      "features": [
+        "Page d’accueil avec liste des appartements.",
+        "Page d’un appartement avec galerie photos, description, équipements, avis et hôte.",
+        "Collapse interactif : fermés par défaut, ouverture/fermeture au clic.",
+        "Page d’erreur 404."
+      ],
+      "technologies": [
+        "React(Vite, React Router)",
+        "JavaScript (ES6+)",
+        "HTML5 / CSS3 (Sass)",
+        "Figma"
+      ],
+      "link": "https://github.com/corsarto/kasa.git"
+    }
   },
   {
     "id": 2,
