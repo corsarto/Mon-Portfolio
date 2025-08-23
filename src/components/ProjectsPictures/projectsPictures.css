@@ -1,0 +1,12 @@
+.project-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.project-pictures img {
+    max-width:600px;
+    width: 100%;
+    height: auto;
+    margin:0;
+}
