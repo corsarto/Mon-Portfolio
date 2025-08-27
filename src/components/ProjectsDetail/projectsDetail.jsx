@@ -10,7 +10,7 @@ function ProjectsDetail() {
   return (
     <section className="project-detail">
       <h2>Description:</h2>
-      <p>{project.details.scenario}</p>
+      <p className="project-detail-txt">{project.details.scenario}</p>
       <h2>Mon rôle:</h2>
       <ul>
         {project.details.roles.map((role, index) => (
