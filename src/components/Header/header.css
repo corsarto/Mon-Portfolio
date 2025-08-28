@@ -50,7 +50,23 @@
   opacity: 1;
   transform: translateY(0px);
 }
-
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 20px 0;
+  }
+  .title-link {
+    margin-left:20px;
+    font-size: 20px;
+  }
+  .nav {
+    margin-right:20px;
+    gap:15px;
+  }
+  .nav-link {
+    font-size:16px;
+  }
+  
+}
 @media screen and (max-width: 550px) {
   .title-link {
     margin-left:10px;
