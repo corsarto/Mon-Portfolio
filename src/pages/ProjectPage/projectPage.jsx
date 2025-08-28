@@ -18,10 +18,16 @@ function ProjectPage() {
       </div>
       <ProjectsDetail />
       <ProjectsPictures />
-      <h2>Lien du projet:</h2>
-      <a href={project.details.link} target="_blank" rel="noopener noreferrer">
-        {project.details.link}
-      </a>
+      <div className="project-link">
+        <h2>Lien du projet:</h2>
+        <a
+          href={project.details.link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {project.details.link}
+        </a>
+      </div>
     </div>
   );
 }

@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/header.jsx";
 import Footer from "./components/Footer/footer.jsx";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop.jsx";
 import "../src/assets/style/app.css";
 
 const Home = lazy(() => import("./pages/Home/home.jsx"));
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById("app")).render(
     <BrowserRouter>
       <Header />
       <Suspense fallback={<div>Chargement...</div>}>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projets/:project_id" element={<ProjectPage />} />

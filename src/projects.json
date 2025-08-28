@@ -79,7 +79,7 @@
       "pictures": [
         { "src": "/images/Booki-desktop.webp" , "alt": "Booki en format desktop" },
         { "src": "/images/Booki-tablette.webp", "alt": "Booki version tablette" },
-        { "src": "/images/Booki-mobil.webp", "alt": "Booki version mobile" }
+        { "src": "/images/Booki-tablette-2.webp", "alt": "Booki version tablette" }
       ],
       "scenario": "J’ai participé au développement du site permettant aux utilisateurs de rechercher des hébergements et des activités dans la ville de leur choix. Mon rôle principal était d’intégrer l’interface utilisateur à partir des maquettes Figma fournies par l'UI designer et validées par la CTO. J’ai travaillé sur l’intégration complète en HTML et CSS, en veillant à respecter le responsive design pour desktop, tablette et mobile, ainsi que les contraintes techniques définies dans la note de synthèse.",
       "roles": [

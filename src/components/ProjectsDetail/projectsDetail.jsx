@@ -10,19 +10,22 @@ function ProjectsDetail() {
   return (
     <section className="project-detail">
       <h2>Description:</h2>
-      <p className="project-detail-txt">{project.details.scenario}</p>
+      <p>{project.details.scenario}</p>
+
       <h2>Mon rôle:</h2>
       <ul>
         {project.details.roles.map((role, index) => (
           <li key={index}>{role}</li>
         ))}
       </ul>
+
       <h2>Fonctionnalités:</h2>
       <ul>
         {project.details.features.map((feature, index) => (
           <li key={index}>{feature}</li>
         ))}
       </ul>
+
       <h2>Technologies utilisées:</h2>
       <ul>
         {project.details.technologies.map((tech, index) => (
