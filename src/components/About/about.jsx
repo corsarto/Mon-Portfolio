@@ -6,7 +6,7 @@ function About() {
       <h2>À propos</h2>
       <div className="about-container">
         <img
-          src="../src/assets/images/loic.webp"
+          src="/images/loic.webp"
           alt="Photo de Loïc Clerc"
           className="about-photo"
         />

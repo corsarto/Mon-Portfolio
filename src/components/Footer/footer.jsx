@@ -10,7 +10,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
           <img
-            src="../src/assets/images/Linkedin_logo.webp"
+            src="/images/Linkedin_logo.webp"
             alt="Logo de linkedin"
             className="footer-linkedin"
           />
@@ -21,7 +21,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
           <img
-            src="../src/assets/images/github_logo.png"
+            src="/images/github_logo.png"
             alt="Logo de github"
             className="footer-github"
           />

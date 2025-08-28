@@ -13,7 +13,7 @@ function Skills() {
         <div className="skills-card">
           <h3>Front-End</h3>
           <img
-            src="src/assets/images/Front-end-logo.webp"
+            src="/images/Front-end-logo.webp"
             alt="Logo Front-end"
             className="skills-logo"
           ></img>
@@ -26,7 +26,7 @@ function Skills() {
         <div className="skills-card">
           <h3>Back-End</h3>
           <img
-            src="src/assets/images/Backend-logo.webp"
+            src="/images/Backend-logo.webp"
             alt="Logo Back-end"
             className="skills-logo"
           ></img>
@@ -38,7 +38,7 @@ function Skills() {
         <div className="skills-card">
           <h3>Outils et Autres</h3>
           <img
-            src="src/assets/images/logo-outils.webp"
+            src="/images/logo-outils.webp"
             alt="Logo Outils"
             className="skills-logo"
           ></img>

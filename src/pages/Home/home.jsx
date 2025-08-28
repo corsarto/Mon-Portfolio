@@ -9,7 +9,7 @@ function Home() {
       <div className="home-wrapper">
         <h1>Bienvenue sur mon portfolio</h1>
         <img
-          src="src/assets/images/banner_1_.webp"
+          src="/images/banner_1_.webp"
           alt="Banniere"
           className="banner"
           width="1100"
