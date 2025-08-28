@@ -4,8 +4,13 @@
     flex-direction:column;
     gap:25px;
     margin-top:20px;
+    align-items: center;
 }
-
+.projects-header img {
+    width:200px;
+    height:auto;
+    margin:0;
+}
 .project-link {
     display: flex; 
     margin-left: 40px; 

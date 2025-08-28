@@ -12,3 +12,16 @@
     font-size: 20px;
     margin-bottom: 40px;
 }
+
+@media screen and (max-width: 550px) {
+    .projects {
+        margin-top:30px;
+    }
+    .projects h2 {
+        font-size:24px;
+    }
+    .projects p {
+        font-size:16px;
+        margin-bottom: 20px;
+    }
+}

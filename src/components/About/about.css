@@ -1,10 +1,13 @@
 .about-container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .about {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  align-items: center;
 }
 .about-photo {
   width: 40%;
@@ -19,4 +22,27 @@
 }
 .about-container p {
   font-size: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .about {
+    padding:10px;
+  }
+  .about h2 {
+    font-size:24px;
+    margin-bottom:20px;
+    margin-top: 30px;
+  }
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about-photo {
+    width:80%;
+    height:auto;
+  }
+  .about-container p {
+    font-size:16px;
+  }
+  
 }

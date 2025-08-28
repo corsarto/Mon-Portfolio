@@ -12,11 +12,11 @@ function About() {
         />
         <p>
           Je suis Loïc Clerc, développeur web en reconversion, ayant récemment
-          achevé ma formation. Curieux et motivé, je continue d’évoluer à
-          travers des projets concrets et collaboratifs. Mon expérience dans la
-          restauration m’a permis de développer de solides compétences en
-          communication et en travail d’équipe, des atouts que je mets désormais
-          au service du développement web.{" "}
+          achevé ma formation. Curieux et motivé, je continue d’évoluer et
+          d&apos;apprendre dans ce milieu. Mon expérience dans la restauration
+          m&apos;a permis de développer de solides compétences en communication
+          travail d’équipe, des atouts que je mets désormais au service du
+          développement web.{" "}
         </p>
       </div>
     </section>

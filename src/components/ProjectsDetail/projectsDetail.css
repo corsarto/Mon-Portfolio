@@ -14,13 +14,13 @@
   margin: 0;
 }
 
-.project-detail p, ul {
+.project-detail p, .project-detail ul {
   grid-column: 2; 
   margin: 0;
   padding-left: 18px; 
 }
 
-.project-detail p, li {
+.project-detail p, .project-detail li {
     font-size: 18px;
     line-height: 1.6;
 }

@@ -30,3 +30,12 @@
   font-size: 50px;
   z-index: 1;
 }
+
+@media screen and (max-width: 550px) {
+  .banner {
+    height: 350px;
+  }
+  .home-wrapper h1 {
+    font-size: 30px;
+}
+}
