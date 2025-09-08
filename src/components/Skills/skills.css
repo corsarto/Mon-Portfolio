@@ -57,6 +57,9 @@
     align-items: center;
     justify-content: center;
   }
+  .skills p {
+    text-align: center;
+  }
 } 
 
 @media screen and (max-width: 550px) {
